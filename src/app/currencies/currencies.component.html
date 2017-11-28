@@ -1,0 +1,11 @@
+<div class="container">
+  {{ value | currency }}
+  <br>
+  {{ value | currency:'CNY' }}
+  <br>
+  {{ value | currency:'USD':false }}
+  <br>
+  {{ value | currency:'EUR':true:'1.10' }}
+  <br>
+  <hr />
+</div>
